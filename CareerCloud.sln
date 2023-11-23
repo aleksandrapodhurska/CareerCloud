@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.ADODataAccessLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.DataAccessLayer", "CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj", "{F2F072C3-5C5A-4C57-B26F-0B58736C433E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.BusinessLogicLayer", "CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj", "{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F2F072C3-5C5A-4C57-B26F-0B58736C433E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2F072C3-5C5A-4C57-B26F-0B58736C433E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2F072C3-5C5A-4C57-B26F-0B58736C433E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
