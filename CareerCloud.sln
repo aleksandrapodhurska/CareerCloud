@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloud.Pocos", "CareerCloud.Pocos\CareerCloud.Pocos.csproj", "{CCE01D22-0D01-413F-9637-BE499BF84206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.Pocos", "CareerCloud.Pocos\CareerCloud.Pocos.csproj", "{CCE01D22-0D01-413F-9637-BE499BF84206}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.ADODataAccessLayer", "CareerCloud.ADODataAccessLayer\CareerCloud.ADODataAccessLayer.csproj", "{94E65116-6FE2-4023-B595-D41229F48944}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.DataAccessLayer", "CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj", "{F2F072C3-5C5A-4C57-B26F-0B58736C433E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.BusinessLogicLayer", "CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj", "{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.EntityFrameworkDataAccess", "CareerCloud.EntityFrameworkDataAccess\CareerCloud.EntityFrameworkDataAccess.csproj", "{7CE2BF68-33EE-45C2-A6AD-72F18B010915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55312EFA-724E-462B-A5AF-2FB8F8CD7B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE2BF68-33EE-45C2-A6AD-72F18B010915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE2BF68-33EE-45C2-A6AD-72F18B010915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE2BF68-33EE-45C2-A6AD-72F18B010915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE2BF68-33EE-45C2-A6AD-72F18B010915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

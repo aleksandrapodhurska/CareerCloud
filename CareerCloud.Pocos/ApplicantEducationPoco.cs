@@ -13,7 +13,8 @@ namespace CareerCloud.Pocos
 		[Column("Applicant")]
 		public Guid Applicant { get; set; }
 
-		[Column("Major")]
+
+        [Column("Major")]
 		public string Major { get; set; }
 
         [Column("Certificate_Diploma")]
@@ -30,6 +31,8 @@ namespace CareerCloud.Pocos
 		
 		[Column("Time_Stamp")]
         public Byte[] TimeStamp { get; set; }
-	}
+
+        public virtual ApplicantProfilePoco ApplicantProfile { get; set; }
+    }
 }
 
