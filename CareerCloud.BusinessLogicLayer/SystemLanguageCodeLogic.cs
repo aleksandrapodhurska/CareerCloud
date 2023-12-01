@@ -16,7 +16,7 @@ namespace CareerCloud.BusinessLogicLayer
             try
             {
                 Verify(pocos);
-                Add(pocos);
+                _repository.Add(pocos);
             }
             catch (ValidationException ex)
             {
@@ -39,7 +39,7 @@ namespace CareerCloud.BusinessLogicLayer
             try
             {
                 Verify(pocos);
-                Update(pocos);
+                _repository.Update(pocos);
             }
             catch (ValidationException ex)
             {
