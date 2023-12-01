@@ -7,5 +7,7 @@ As for now Application contain the folowing layers:
 - POCOs layer
 - Repository layer where classes use ADO.Net to perform CRUD operations
 - Business Logic layer that encapsulates the business rules, responsible also for data validation
+- Added Entity Framework Access layer, added navigation to POCOs
+- Applied Generic repository implementation
 
 To be continued...
